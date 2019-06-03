@@ -12,7 +12,11 @@ permalink: /2019/projects/p01/midterm/
 
 爬取各年份业绩快报后，选取每年的**营业收入同比增长**、**净利润同比增长**、**净资产收益率**作为特征，按年份进行合并做缺失值处理：将`2012`年至`2017`年的财务信息合并为训练数据集`train.csv`，将`2013`年至`2018`年的财务信息合并为测试数据集`test.csv`。
 
-> 数据获取和预处理代码：https://www.baidu.com
+> 数据获取代码：https://github.com/mijeff/datamining_homework/blob/master/team_project/eastmoney_crawler.py
+
+> 测试数据预处理代码：https://github.com/mijeff/datamining_homework/blob/master/team_project/data-test.ipynb
+
+> 训练数据预处理代码：https://github.com/mijeff/datamining_homework/blob/master/team_project/data-train.ipynb
 
 ### 数据分析与可视化
 
@@ -25,7 +29,7 @@ permalink: /2019/projects/p01/midterm/
 
 <img src="imgs/data_processing.png">
 
-> 数据分析和可视化的代码：
+> 数据分析和可视化的代码：https://github.com/mijeff/datamining_homework/blob/master/team_project/decisionTrees.ipynb
 
 ### 模型选取
 
@@ -57,7 +61,7 @@ permalink: /2019/projects/p01/midterm/
 
 <img src="imgs/decision_tree2.jpg">
 
-决策树代码：
+> 决策树代码：https://github.com/mijeff/datamining_homework/blob/master/team_project/decisionTrees.ipynb
 
 ### 存在的问题
 
